@@ -26,7 +26,7 @@ class Game
     else
       result = "Seriously? No!"
 
-      self.current_player == 1 ? self.palyer1.lose_life : self.player2.lose_life
+      self.current_player == 1 ? self.player1.lose_life : self.player2.lose_life
 
     end
 
